@@ -1,0 +1,18 @@
+.book {
+    background-color:rgb(147, 173, 189);
+    padding-bottom: 40px;
+    
+}
+
+.book h1 {
+    text-align: center;
+}
+
+.gallery {
+    width: 80%;
+    margin: auto;
+}
+
+.baris {
+    margin-bottom: 40px;
+}

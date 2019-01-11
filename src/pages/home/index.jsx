@@ -3,6 +3,8 @@ import Slider from './components/slider'
 import Header from './components/header';
 import './home.css'
 import Button from './components/button';
+import Booking from './components/booking'
+import About from './components/about';
 
 
 export default function Home() {
@@ -13,8 +15,18 @@ export default function Home() {
           <Button />
           <br/>
           <Slider />
+         
         </div>
-      halaman home
+        <div className="divide">
+            a
+        </div>
+          <About />
+          <Button />
+        
+          <Booking />
+          <br/>
+          
+        
     </div>
   )
 }
