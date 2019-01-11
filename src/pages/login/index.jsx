@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {Link} from "react-router-dom";
 import "antd/dist/antd.css";
-import "./Login.css";
+import "./login.css";
 import { Form, Icon, Input, Button } from "antd";
 
  class NormalLoginForm extends Component {
