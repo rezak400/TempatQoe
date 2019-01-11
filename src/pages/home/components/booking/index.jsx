@@ -17,7 +17,7 @@ export default function Booking() {
                 <Card
                     hoverable
                     style={{ width: 240 }}
-                    cover={<img alt="example" src="https://loremflickr.com/cache/resized/842_43504444412_928df5700f_320_240_nofilter.jpg" />}
+                    cover={<img alt="example" src="https://loremflickr.com/cache/resized/4818_45926132192_0d0296d4ed_320_240_nofilter.jpg" />}
                 >
                     <Meta
                     title="Ruangan"
@@ -31,7 +31,7 @@ export default function Booking() {
                 <Card
                     hoverable
                     style={{ width: 240 }}
-                    cover={<img alt="example" src="https://loremflickr.com/cache/resized/842_43504444412_928df5700f_320_240_nofilter.jpg" />}
+                    cover={<img alt="example" src="https://loremflickr.com/cache/resized/4818_45926132192_0d0296d4ed_320_240_nofilter.jpg" />}
                 >
                     <Meta
                     title="Ruangan"
@@ -45,7 +45,7 @@ export default function Booking() {
                 <Card
                     hoverable
                     style={{ width: 240 }}
-                    cover={<img alt="example" src="https://loremflickr.com/cache/resized/842_43504444412_928df5700f_320_240_nofilter.jpg" />}
+                    cover={<img alt="example" src="https://loremflickr.com/cache/resized/4818_45926132192_0d0296d4ed_320_240_nofilter.jpg" />}
                 >
                     <Meta
                     title="Ruangan"
@@ -62,7 +62,7 @@ export default function Booking() {
                 <Card
                     hoverable
                     style={{ width: 240 }}
-                    cover={<img alt="example" src="https://loremflickr.com/cache/resized/842_43504444412_928df5700f_320_240_nofilter.jpg" />}
+                    cover={<img alt="example" src="https://loremflickr.com/cache/resized/4818_45926132192_0d0296d4ed_320_240_nofilter.jpg" />}
                 >
                     <Meta
                     title="Ruangan"
@@ -76,7 +76,7 @@ export default function Booking() {
                 <Card
                     hoverable
                     style={{ width: 240 }}
-                    cover={<img alt="example" src="https://loremflickr.com/cache/resized/842_43504444412_928df5700f_320_240_nofilter.jpg" />}
+                    cover={<img alt="example" src="https://loremflickr.com/cache/resized/4818_45926132192_0d0296d4ed_320_240_nofilter.jpg" />}
                 >
                     <Meta
                     title="Ruangan"
@@ -90,7 +90,7 @@ export default function Booking() {
                 <Card
                     hoverable
                     style={{ width: 240 }}
-                    cover={<img alt="example" src="https://loremflickr.com/cache/resized/842_43504444412_928df5700f_320_240_nofilter.jpg" />}
+                    cover={<img alt="example" src="https://loremflickr.com/cache/resized/4818_45926132192_0d0296d4ed_320_240_nofilter.jpg" />}
                 >
                     <Meta
                     title="Ruangan"
