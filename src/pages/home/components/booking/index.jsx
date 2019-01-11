@@ -1,7 +1,6 @@
 import React from 'react'
 import { Row, Col } from 'antd';
 import { Card } from 'antd';
-
 import "./booking.css"
 
 const { Meta } = Card;

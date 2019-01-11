@@ -5,6 +5,7 @@ import Login from './pages/login'
 import Error from './Error'
 import Navbar from './components/navbar'
 import Footer from './components/footer'
+import Register from './pages/register'
 import 'antd/dist/antd.css';
 
 class App extends Component {
@@ -15,7 +16,8 @@ class App extends Component {
           <Navbar />
           <Switch>
             <Route exact path="/" component={ Home } />
-            <Route path="/login" component={ Login }/>
+            <Route path="/login" component={ Login } />
+            <Route path="/register" component={ Register } />
             <Route component={ Error } />
           </Switch>
           <Footer />

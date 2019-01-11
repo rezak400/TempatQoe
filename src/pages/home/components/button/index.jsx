@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { Button as Tombol} from 'antd';
 import { Row, Col } from "antd";
 import "./button.css"
@@ -13,7 +14,7 @@ export default function Button() {
                     <Tombol type="primary" block>BOOKING SEKARANG</Tombol>
                 </Col>
                 <Col span={10} >
-                    <Tombol type="primary" block>LOGIN / REGISTER</Tombol>
+                    <Link to={"/Login"}><Tombol type="primary" block>LOGIN / REGISTER</Tombol></Link>
                 </Col>
             
         </Row>
