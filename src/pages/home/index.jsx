@@ -14,7 +14,9 @@ export default function Home() {
         <div className="atas">
           <Header />  
           <Button />
-         
+            <br/>
+            <br/> 
+            <br/>
           <Slider />
          
         </div>
