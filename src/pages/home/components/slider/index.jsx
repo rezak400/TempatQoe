@@ -8,7 +8,7 @@ export default function Slider() {
   return (
     <div>
         <Row>
-            <Col span={22} offset={1}>
+            <Col span={20} offset={2}>
                 <Carousel autoplay>
                     <img height={300} width={900} src={gambar} alt=""/>
                     <img height={300} width={900} src={gambar} alt=""/>
