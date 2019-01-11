@@ -24,7 +24,9 @@ export default function Home() {
             a
         </div> */}
           <About />
+          <br/>
           <Button />
+          <br/>
         
           <Booking />
           <br/>

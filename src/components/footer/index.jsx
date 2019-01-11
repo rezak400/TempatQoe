@@ -6,7 +6,7 @@ export default function Footer() {
     <div>
 <footer>
   <div class="container">
-    <p>Here Comes The Footer 2014 <a href=""> Copyright</a> and stuff</p>
+    <p>AsaBarbar<a href=""> Copyright</a> SMKN 1</p>
   </div>
 </footer>
     </div>
