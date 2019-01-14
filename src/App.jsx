@@ -15,14 +15,6 @@ class App extends Component {
       <BrowserRouter>
         <div>
           <Navbar />
-<<<<<<< HEAD
-            <Switch>
-              <Route exact path="/" component={ Home } />
-              <Route path="/login" component={ Login } />
-              <Route path="/register" component={ Register } />
-              <Route component={ Error } />
-            </Switch>
-=======
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/login" component={Login} />
@@ -30,7 +22,6 @@ class App extends Component {
             <Route path="/register" component={Register} />
             <Route component={Error} />
           </Switch>
->>>>>>> 09b72c70cbd0a16c2e2935e48ce33629f9779d7a
           <Footer />
         </div>
       </BrowserRouter>
