@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "antd/dist/antd.css";
-import "./Register.css";
+import "./register.css";
 import {
     Form, Input, Tooltip, Icon, Cascader, Select, Button, //AutoComplete,
   } from 'antd';
