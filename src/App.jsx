@@ -8,8 +8,16 @@ import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Register from "./pages/register";
 import "antd/dist/antd.css";
+import WOW from 'wowjs';
+
+
 
 class App extends Component {
+
+  componentDidMount() {
+    new WOW.WOW().init();
+  }
+
   render() {
     return (
       <BrowserRouter>

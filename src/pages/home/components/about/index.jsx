@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
 import { Row, Col } from 'antd';
 import "./about.css"
 
+
+  
+
 export default function About() {
+    
+
+
   return (
     <div className="container-about">
       <div className="head">
@@ -12,8 +18,8 @@ export default function About() {
       <div className="tutor">
             <Row>
                 <Col span={10} offset={2}>
-                    <div className="card">
-                    <h2>Buat akun Tempatqoe</h2>
+                    <div className="card" >
+                    <h2 class="wow flipInY">Buat akun Tempatqoe</h2>
                     </div>
                 </Col>
                 <Col span={10}>
