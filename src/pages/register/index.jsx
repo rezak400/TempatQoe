@@ -2,35 +2,12 @@ import React, { Component } from "react";
 import "antd/dist/antd.css";
 import "./register.css";
 import {
-    Form, Input, Tooltip, Icon, Cascader, Select, Button, //AutoComplete,
+    Form, Input, Tooltip, Icon, Cascader, Select, Button, InputNumber //AutoComplete,
   } from 'antd';
   
   const { Option } = Select;
 //   const AutoCompleteOption = AutoComplete.Option;
   
-  const residences = [{
-    value: 'zhejiang',
-    label: 'Zhejiang',
-    children: [{
-      value: 'hangzhou',
-      label: 'Hangzhou',
-      children: [{
-        value: 'xihu',
-        label: 'West Lake',
-      }],
-    }],
-  }, {
-    value: 'jiangsu',
-    label: 'Jiangsu',
-    children: [{
-      value: 'nanjing',
-      label: 'Nanjing',
-      children: [{
-        value: 'zhonghuamen',
-        label: 'Zhong Hua Men',
-      }],
-    }],
-  }];
   
   class RegistrationForm extends Component {
     state = {
@@ -111,16 +88,16 @@ import {
         <Form onSubmit={this.handleSubmit}  className="regis-form">
           <Form.Item
             {...formItemLayout}
-            label="E-mail"
+            label="Nomor Induk"
           >
-            {getFieldDecorator('email', {
+            {getFieldDecorator('nomor_induk', {
               rules: [{
-                type: 'email', message: 'The input is not valid E-mail!',
+                type: 'number', message: 'Input yang bener, itu bukan angka!',
               }, {
-                required: true, message: 'Please input your E-mail!',
+                required: true, message: 'Please lah masukkin nomor induk kau itu',
               }],
             })(
-              <Input />
+              <InputNumber className="inum" />
             )}
           </Form.Item>
           <Form.Item
@@ -176,7 +153,7 @@ import {
               initialValue: ['zhejiang', 'hangzhou', 'xihu'],
               rules: [{ type: 'array', required: true, message: 'Please select your habitual residence!' }],
             })(
-              <Cascader options={residences} />
+              <Cascader />
             )}
           </Form.Item>
           <Form.Item
