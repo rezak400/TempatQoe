@@ -13,7 +13,7 @@ export default function Booking() {
       <div className="gallery">
         <div className="effect" class="wow fadeInUp">
                 <Row type="flex" justify="space-around" className="baris"  >
-                    <Col span={6}>
+                    <Col md={6}>
                     <div className="card">
                         <Card
                             hoverable
@@ -27,7 +27,7 @@ export default function Booking() {
                         </Card>
                     </div>
                     </Col>
-                    <Col span={6}>
+                    <Col md={6}>
                     <div className="card">
                         <Card
                             hoverable
@@ -41,7 +41,7 @@ export default function Booking() {
                         </Card>
                     </div>
                     </Col>
-                    <Col span={6}>
+                    <Col md={6}>
                     <div className="card">
                         <Card
                             hoverable
@@ -58,7 +58,7 @@ export default function Booking() {
                     </Col>
                 </Row>
                 <Row type="flex" justify="space-around" className="baris">
-                    <Col span={6}>
+                    <Col md={6}>
                     <div className="card">
                         <Card
                             hoverable
@@ -72,7 +72,7 @@ export default function Booking() {
                         </Card>
                     </div>
                     </Col>
-                    <Col span={6}>
+                    <Col md={6}>
                     <div className="card">
                         <Card
                             hoverable
@@ -86,7 +86,7 @@ export default function Booking() {
                         </Card>
                     </div>
                     </Col>
-                    <Col span={6}>
+                    <Col md={6}>
                     <div className="card">
                         <Card
                             hoverable

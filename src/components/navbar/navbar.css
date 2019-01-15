@@ -3,12 +3,12 @@
 }
 
 
-ul {
+.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: rgb(51, 95, 131);
   }
   
   li {
@@ -19,7 +19,8 @@ ul {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 25px;
+    font-size: 15px;
     text-decoration: none;
   }
   
@@ -28,5 +29,5 @@ ul {
   }
   
   .active {
-    background-color: #4CAF50;
+    background-color: rgb(42, 73, 99);
   }
