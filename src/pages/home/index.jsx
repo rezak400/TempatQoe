@@ -18,7 +18,6 @@ export default function Home() {
             <br/> 
             <br/>
           <Slider />
-         
         </div>
         {/* <div className="divide">
             a

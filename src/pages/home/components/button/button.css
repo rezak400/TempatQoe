@@ -1,5 +1,5 @@
 .container-button {
-    background-color: rgb(39, 76, 107);
+    background-color: rgb(51, 95, 131);
     padding: 8px 10px 8px 10px;
     width: 550px;
     margin: auto;
@@ -7,3 +7,11 @@
 
 }
 
+.ant-btn-primary {
+    color: rgb(255, 255, 255);
+    background-color: #688fe4;
+    border: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+    font-weight: bold;
+}

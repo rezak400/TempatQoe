@@ -1,11 +1,15 @@
 .book {
-    background-color:rgb(147, 173, 189);
+    background-color:rgb(73, 116, 160);
     padding-bottom: 40px;
     margin-bottom: 0;
+    padding-top: 40px;
 }
 
 .book h1 {
     text-align: center;
+
+    color: white;
+    margin-bottom: 50px;
 }
 
 .gallery {

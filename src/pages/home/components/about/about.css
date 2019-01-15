@@ -12,8 +12,28 @@
 
     margin-bottom: 50px;
 }
-.container-about .card {
+/* .container-about .card {
     background-color: rgb(164, 216, 164);
     border: 0.5px solid black;
-    height: 220px;
+    
+} */
+
+.tutorial .gambar {
+    background-color: green;
+
 }
+
+.tutorial .card {
+    font-size: 20px;
+    padding: 80px;
+}
+
+.tutorial {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.container-about .baris img {
+    width: 300px;
+}
+
