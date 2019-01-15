@@ -1,0 +1,11 @@
+.ant-select-dropdown-menu {
+  background-color: white;
+}
+
+.ant-select-dropdown-menu-item {
+  width: 100%;
+}
+
+.ant-calendar-time-picker-select > ul > li {
+  background-color: white;
+}
