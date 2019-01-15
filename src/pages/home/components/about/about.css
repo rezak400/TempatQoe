@@ -21,6 +21,7 @@
 .tutorial {
     width: 90%;
     margin: auto;
+    overflow: hidden;
 }
 .container-about .baris img {
     width: 300px;

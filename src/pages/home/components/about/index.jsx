@@ -16,7 +16,8 @@ export default function About() {
             <p>Disini kamu bisa membooking ruangan yang ada di SMK NEGERI 1</p>
         </div>
         <div className="tutorial">
-                <div className="baris" >
+                <div className="baris">
+                    <div className="efek" class="wow fadeInRight">
                     <Row>
                         <Col span={16} >
                             <div className="card" >
@@ -30,34 +31,40 @@ export default function About() {
                             </div>
                         </Col>
                     </Row>
+                    </div>
                 </div>
                 <div className="baris" >
-                    <Row>
-                        <Col span={16} >
-                            <div className="card" >
-                            <h2>Pergi ke halaman Booking</h2>
-                            </div>
-                        </Col>
-                        <Col span={8}>
-                            <div className="card">
-                            <img src={Logo} alt=""/>
-                            </div>
-                        </Col>
-                    </Row>
+                    <div className="efek" class="wow fadeInLeft">
+                        <Row>
+                            <Col span={8}>
+                                <div className="card">
+                                <img src={Logo} alt=""/>
+                                </div>
+                            </Col>
+                            <Col span={16} >
+                                <div className="card" >
+                                <h2>Pergi ke halaman Booking</h2>
+                                </div>
+                            </Col>
+                        
+                        </Row>
+                    </div>
                 </div>
                 <div className="baris" >
-                    <Row>
-                        <Col span={16} >
-                            <div className="card" >
-                            <h2>Pilih ruangan/tempat yang ingin anda booking, serta tentukan jadwalnya :D</h2>
-                            </div>
-                        </Col>
-                        <Col span={8}>
-                            <div className="card">
-                            <img src={Logo} alt=""/>
-                            </div>
-                        </Col>
-                    </Row>
+                    <div className="efek" class="wow fadeInRight">
+                        <Row>
+                            <Col span={16} >
+                                <div className="card" >
+                                <h2>Pilih ruangan/tempat yang ingin anda booking, serta tentukan jadwalnya :D</h2>
+                                </div>
+                            </Col>
+                            <Col span={8}>
+                                <div className="card">
+                                <img src={Logo} alt=""/>
+                                </div>
+                            </Col>
+                        </Row>
+                    </div>
                 </div>       
         </div>
     </div>
