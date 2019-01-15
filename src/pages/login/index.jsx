@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import {Link} from "react-router-dom";
 import "antd/dist/antd.css";
 import "./login.css";
-import { Form, Icon, Input, Button } from "antd";
+import { Form, Icon, Input, Button, Row, Col } from "antd";
 
  class NormalLoginForm extends Component {
   handleSubmit = e => {
@@ -18,7 +18,13 @@ import { Form, Icon, Input, Button } from "antd";
     const { getFieldDecorator } = this.props.form;
     return (
       <div className="form">
-        <Form onSubmit={this.handleSubmit} className="login-form">
+          <Row
+          type="flex"
+          justify="center"
+          
+          style={{ padding: 100 }}
+        >
+         <Form onSubmit={this.handleSubmit} className="login-form">
             <h2>Login</h2>
           <Form.Item>
             {getFieldDecorator("userName", {
@@ -53,6 +59,7 @@ import { Form, Icon, Input, Button } from "antd";
             <Link to={"/Register"}> register now!</Link>
           </Form.Item>
         </Form>
+      </Row>
       </div>  
     );
   }
