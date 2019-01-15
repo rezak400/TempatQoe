@@ -15,5 +15,14 @@
 .container-about .card {
     background-color: rgb(164, 216, 164);
     border: 0.5px solid black;
-    height: 220px;
+    
 }
+
+.tutorial {
+    width: 90%;
+    margin: auto;
+}
+.container-about .baris img {
+    width: 300px;
+}
+

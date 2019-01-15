@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className="header">
       <div className="gambar">
-      <img width={300} src={logo} alt=""/>
+      <img class="wow bounceInUp"width={300} src={logo} alt=""/>
       </div>
       <p>Website peminjaman ruangan SMK NEGERI 1 Kota Bekasi</p>
     </div>
