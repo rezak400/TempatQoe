@@ -26,7 +26,7 @@ export default function About() {
                             </div>
                         </Col>
                         <Col span={8}>
-                            <div className="card">
+                            <div className="gambar">
                             <img src={Logo} alt=""/>
                             </div>
                         </Col>
@@ -37,7 +37,7 @@ export default function About() {
                     <div className="efek" class="wow fadeInLeft">
                         <Row>
                             <Col span={8}>
-                                <div className="card">
+                                <div className="gambar">
                                 <img src={Logo} alt=""/>
                                 </div>
                             </Col>
@@ -59,7 +59,7 @@ export default function About() {
                                 </div>
                             </Col>
                             <Col span={8}>
-                                <div className="card">
+                                <div className="gambar">
                                 <img src={Logo} alt=""/>
                                 </div>
                             </Col>
