@@ -40,9 +40,8 @@ import { Form, Icon, Input, Button, Row, Col } from "antd";
             {getFieldDecorator("password", {
               rules: [{ required: true, message: "Please input your Password!" }]
             })(
-              <Input
+              <Input.Password 
                 prefix={<Icon type="lock" style={{ color: "blue" }} />}
-                type="password"
                 placeholder="Password"
               />
             )}
