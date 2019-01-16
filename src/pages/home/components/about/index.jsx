@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import "./about.css"
 import Logo from "./akun-1.png"
+import "./about.css"
 
   
 
@@ -36,12 +36,12 @@ export default function About() {
                 <div className="baris" >
                     <div className="efek" class="wow fadeInLeft">
                         <Row className={'gridSwitch'}>
-                            <Col  md={24}  lg={8}>
+                            <Col    lg={8}>
                                 <div className="gambar">
                                 <img src={Logo} alt=""/>
                                 </div>
                             </Col>
-                            <Col  md={24}  lg={16} >
+                            <Col    lg={16} >
                                 <div className="card" >
                                 <h2>Pergi ke halaman Booking</h2>
                                 </div>
