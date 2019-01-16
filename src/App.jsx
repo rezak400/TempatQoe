@@ -8,15 +8,15 @@ import Error from "./Error";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Register from "./pages/register";
-import WOW from 'wowjs';
+// import WOW from 'wowjs';
 
 
 
 class App extends Component {
 
-  componentDidMount() {
-    new WOW.WOW().init();
-  }
+  // componentDidMount() {
+  //   new WOW.WOW().init();
+  // }
 
   render() {
     return (

@@ -25,8 +25,19 @@
 
 .tutorial .card {
     font-size: 20px;
-    padding: 80px;
 }
+
+
+.gridSwitch{
+    display : flex;
+    flex-direction : row-reverse;
+}
+
+@media only screen and (max-width: 990px) {
+    .gridSwitch {
+      display: block
+    }
+  }
 
 .tutorial {
     width: 90%;

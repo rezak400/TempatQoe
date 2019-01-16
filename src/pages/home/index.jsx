@@ -1,14 +1,19 @@
 import React from 'react'
 import Slider from './components/slider'
 import Header from './components/header';
-
 import Button from './components/button';
 import Booking from './components/booking'
 import About from './components/about';
 import './home.css'
+import WOW from 'wowjs';
 
+export default class Home extends React.Component{
+  
+  componentDidMount() {
+    new WOW.WOW().init();
+  }
 
-export default function Home() {
+  render(){
   return (
     <div>
         <div className="atas">
@@ -33,4 +38,5 @@ export default function Home() {
         
     </div>
   )
+}
 }
