@@ -75,11 +75,12 @@ import {
         },
       };
       const prefixSelector = getFieldDecorator('prefix', {
-        initialValue: '86',
+        initialValue: '62',
       })(
+         
         <Select style={{ width: 70 }}>
-          <Option value="86">+86</Option>
-          <Option value="87">+87</Option>
+          <Option value="62">+62</Option>
+         
         </Select>
       );
   
@@ -101,6 +102,16 @@ import {
             )}
           </Form.Item>
           <Form.Item
+          {...formItemLayout}
+            label="Nama"
+          >
+            {getFieldDecorator('nama', {
+              rules: [{ required: true, message: 'Masukkin nama dong pls', whitespace: true }],
+            })(
+              <Input />
+            )}
+          </Form.Item>
+          <Form.Item
             {...formItemLayout}
             label="Password"
           >
@@ -111,7 +122,7 @@ import {
                 validator: this.validateToNextPassword,
               }],
             })(
-              <Input type="password" />
+              <Input.Password />
             )}
           </Form.Item>
           <Form.Item
@@ -125,16 +136,16 @@ import {
                 validator: this.compareToFirstPassword,
               }],
             })(
-              <Input type="password" onBlur={this.handleConfirmBlur} />
+              <Input.Password onBlur={this.handleConfirmBlur} />
             )}
           </Form.Item>
-          <Form.Item
+          {/* <Form.Item
             {...formItemLayout}
             label={(
               <span>
                 Nickname&nbsp;
                 <Tooltip title="What do you want others to call you?">
-                  <Icon type="question-circle-o" />
+                  <Icon type="question-circle" />
                 </Tooltip>
               </span>
             )}
@@ -144,18 +155,7 @@ import {
             })(
               <Input />
             )}
-          </Form.Item>
-          <Form.Item
-            {...formItemLayout}
-            label="Habitual Residence"
-          >
-            {getFieldDecorator('residence', {
-              initialValue: ['zhejiang', 'hangzhou', 'xihu'],
-              rules: [{ type: 'array', required: true, message: 'Please select your habitual residence!' }],
-            })(
-              <Cascader />
-            )}
-          </Form.Item>
+          </Form.Item> */}
           <Form.Item
             {...formItemLayout}
             label="Phone Number"
