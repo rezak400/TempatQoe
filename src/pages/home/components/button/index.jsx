@@ -9,14 +9,14 @@ export default function Button() {
     <div>
       <div className="container-button">
         <Row type="flex" justify="space-around">
-          <Col span={10}>
+          <Col sm={10}>
             <Link to={"/Booking"}>
               <Tombol type="primary" block>
                 BOOKING SEKARANG
               </Tombol>
             </Link>
           </Col>
-          <Col span={10}>
+          <Col sm={10}>
             <Link to={"/Login"}>
               <Tombol type="primary" block>
                 LOGIN / REGISTER

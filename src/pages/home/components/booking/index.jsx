@@ -12,94 +12,108 @@ export default function Booking() {
       <h1>BOOKING SEKARANG !!</h1>
       <div className="gallery">
         <div className="effect" class="wow fadeInUp">
-                <Row type="flex" justify="space-around" className="baris"  >
-                    <Col md={6}>
-                    <div className="card">
-                        <Card
-                            hoverable
-                            style={{ width: 240 }}
-                            cover={<img alt="example" src={Logo} />}
-                        >
-                            <Meta
-                            title="Ruangan"
-                            description="SMKN 1"
-                            />
-                        </Card>
-                    </div>
+                <Row>
+                    <Col lg={8} md={12}>
+                        <div className="card">
+                            
+                            <Card
+                                hoverable
+                                style={{ width: 240 }}
+                                cover={<img alt="example" src={Logo} />}
+
+                                className="tengah"
+                            >
+                                <Meta
+                                title="Ruangan"
+                                description="SMKN 1"
+                                />
+                            </Card>
+                        </div>
                     </Col>
-                    <Col md={6}>
-                    <div className="card">
-                        <Card
-                            hoverable
-                            style={{ width: 240 }}
-                            cover={<img alt="example" src={Logo} />}
-                        >
-                            <Meta
-                            title="Ruangan"
-                            description="SMKN 1"
-                            />
-                        </Card>
-                    </div>
+                    <Col lg={8} md={12}>
+                        <div className="card">
+                            
+                            <Card
+                                hoverable
+                                style={{ width: 240 }}
+                                cover={<img alt="example" src={Logo} />}
+
+                                className="tengah"
+                            >
+                                <Meta
+                                title="Ruangan"
+                                description="SMKN 1"
+                                />
+                            </Card>
+                        </div>
                     </Col>
-                    <Col md={6}>
-                    <div className="card">
-                        <Card
-                            hoverable
-                            style={{ width: 240 }}
-                            cover={<img alt="example" src={Logo} />}
-                        >
-                            <Meta
-                            title="Ruangan"
-                            description="SMKN 1"
-                            />
-                        </Card>
-                    
-                    </div>
+                    <Col lg={8} md={12}>
+                        <div className="card">
+                            
+                            <Card
+                                hoverable
+                                style={{ width: 240 }}
+                                cover={<img alt="example" src={Logo} />}
+
+                                className="tengah"
+                            >
+                                <Meta
+                                title="Ruangan"
+                                description="SMKN 1"
+                                />
+                            </Card>
+                        </div>
                     </Col>
-                </Row>
-                <Row type="flex" justify="space-around" className="baris">
-                    <Col md={6}>
-                    <div className="card">
-                        <Card
-                            hoverable
-                            style={{ width: 240 }}
-                            cover={<img alt="example" src={Logo} />}
-                        >
-                            <Meta
-                            title="Ruangan"
-                            description="SMKN 1"
-                            />
-                        </Card>
-                    </div>
+                    <Col lg={8} md={12}>
+                        <div className="card">
+                            
+                            <Card
+                                hoverable
+                                style={{ width: 240 }}
+                                cover={<img alt="example" src={Logo} />}
+
+                                className="tengah"
+                            >
+                                <Meta
+                                title="Ruangan"
+                                description="SMKN 1"
+                                />
+                            </Card>
+                        </div>
                     </Col>
-                    <Col md={6}>
-                    <div className="card">
-                        <Card
-                            hoverable
-                            style={{ width: 240 }}
-                            cover={<img alt="example" src={Logo} />}
-                        >
-                            <Meta
-                            title="Ruangan"
-                            description="SMKN 1"
-                            />
-                        </Card>
-                    </div>
+                    <Col lg={8} md={12}>
+                        <div className="card">
+                            
+                            <Card
+                                hoverable
+                                style={{ width: 240 }}
+                                cover={<img alt="example" src={Logo} />}
+
+                                className="tengah"
+                            >
+                                <Meta
+                                title="Ruangan"
+                                description="SMKN 1"
+                                />
+                            </Card>
+                        </div>
                     </Col>
-                    <Col md={6}>
-                    <div className="card">
-                        <Card
-                            hoverable
-                            style={{ width: 240 }}
-                            cover={<img alt="example" src={Logo} />}
-                        >
-                            <Meta
-                            title="Ruangan"
-                            description="SMKN 1"
-                            />
-                        </Card>
-                    
-                    </div>
+                    <Col lg={8} md={12}>
+                        <div className="card">
+                            
+                            <Card
+                                hoverable
+                                style={{ width: 240 }}
+                                cover={<img alt="example" src={Logo} />}
+
+                                className="tengah"
+                            >
+                                <Meta
+                                title="Ruangan"
+                                description="SMKN 1"
+                                />
+                            </Card>
+                        </div>
                     </Col>
                 </Row>
         </div>

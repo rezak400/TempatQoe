@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import "./about.css"
 import Logo from "./akun-1.png"
+import "./about.css"
 
   
 
@@ -19,15 +19,15 @@ export default function About() {
                 <div className="baris">
                     <div className="efek" class="wow fadeInRight">
                     <Row>
-                        <Col span={16} >
+                        <Col md={24}  lg={8}>
+                            <div className="gambar">
+                            <img src={Logo} alt=""/>
+                            </div>
+                        </Col>
+                        <Col md={24} lg={16} >
                             <div className="card" >
                             <h2>Buat akun Tempatqoe</h2>
                             <p>Kamu bisa membuat akun tempatqoe dengan meng-klik gambar disamping</p>
-                            </div>
-                        </Col>
-                        <Col span={8}>
-                            <div className="gambar">
-                            <img src={Logo} alt=""/>
                             </div>
                         </Col>
                     </Row>
@@ -35,13 +35,13 @@ export default function About() {
                 </div>
                 <div className="baris" >
                     <div className="efek" class="wow fadeInLeft">
-                        <Row>
-                            <Col span={8}>
+                        <Row className={'gridSwitch'}>
+                            <Col    lg={8}>
                                 <div className="gambar">
                                 <img src={Logo} alt=""/>
                                 </div>
                             </Col>
-                            <Col span={16} >
+                            <Col    lg={16} >
                                 <div className="card" >
                                 <h2>Pergi ke halaman Booking</h2>
                                 </div>
@@ -53,14 +53,14 @@ export default function About() {
                 <div className="baris" >
                     <div className="efek" class="wow fadeInRight">
                         <Row>
-                            <Col span={16} >
-                                <div className="card" >
-                                <h2>Pilih ruangan/tempat yang ingin anda booking, serta tentukan jadwalnya :D</h2>
-                                </div>
-                            </Col>
-                            <Col span={8}>
+                            <Col md={24}  lg={8} >
                                 <div className="gambar">
                                 <img src={Logo} alt=""/>
+                                </div>
+                            </Col >
+                            <Col  md={24}  lg={16} >
+                                <div className="card" >
+                                <h2>Pilih ruangan/tempat yang ingin anda booking, serta tentukan jadwalnya :D</h2>
                                 </div>
                             </Col>
                         </Row>

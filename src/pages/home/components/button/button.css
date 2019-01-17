@@ -15,3 +15,16 @@
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
     font-weight: bold;
 }
+
+@media only screen and (max-width: 580px){
+
+    .container-button {
+        background-color: rgb(51, 95, 131);
+        padding: 8px 10px 8px 10px;
+        width: 100%;
+        margin: auto;
+        border-radius: 5px;
+    
+    }
+    
+}
