@@ -115,7 +115,7 @@ export default class BookingForm extends Component {
                     label="Jumlah Ruang"
                     {...jumlahRuangFormItemLayout}
                   >
-                    <InputNumber defaultValue={1} />
+                    <InputNumber defaultValue={1} min={1} />
                   </Form.Item>
 
                   <Form.Item label="Ruang" {...ruangFormItemLayout} required>
