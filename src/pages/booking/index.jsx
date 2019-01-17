@@ -34,6 +34,7 @@ export default class BookingForm extends Component {
   constructor() {
     super();
     this.state = {
+      numberOfRoom: 1,
       areaRooms: ruangData[areaData[0]], //refers to a room array in ruangData's fields (in this case areaData[0]'s 1 = GedungA's = the first [1, 2, 3, 4, 5, 6, 7, 8, 9])
       room: ruangData[areaData[0]][0] //refers to a specific room in ruangData's field
     };
@@ -49,6 +50,12 @@ export default class BookingForm extends Component {
   onRoomChange = value => {
     this.setState({
       room: value
+    });
+  };
+
+  handleNumberOfRoomChange = value => {
+    this.setState({
+      numberOfRoom: value
     });
   };
 
@@ -70,6 +77,34 @@ export default class BookingForm extends Component {
       wrapperCol: { span: 16, offset: 2 }
     };
     const { areaRooms } = this.state;
+
+    const roomForm = i => {
+      const theForm = (
+        <Input.Group compact={true}>
+          <Select defaultValue="Gedung A" onChange={this.handleRuangChange}>
+            {areaData.map(area => (
+              <Select.Option key={area}>
+                {area.replace("ung", "ung ")}
+              </Select.Option>
+            ))}
+          </Select>
+
+          <Select onChange={this.onRoomChange} value={this.state.room}>
+            {areaRooms.map(ruang => (
+              <Select.Option key={ruang}>{ruang}</Select.Option>
+            ))}
+          </Select>
+        </Input.Group>
+      );
+
+      const formRepeat = [];
+
+      for (i; i > 0; i--) {
+        formRepeat.push(theForm);
+      }
+
+      return formRepeat;
+    };
 
     return (
       <div>
@@ -115,31 +150,15 @@ export default class BookingForm extends Component {
                     label="Jumlah Ruang"
                     {...jumlahRuangFormItemLayout}
                   >
-                    <InputNumber defaultValue={1} min={1} />
+                    <InputNumber
+                      defaultValue={1}
+                      min={1}
+                      onChange={this.handleNumberOfRoomChange}
+                    />
                   </Form.Item>
 
                   <Form.Item label="Ruang" {...ruangFormItemLayout} required>
-                    <Input.Group compact={true}>
-                      <Select
-                        defaultValue="Gedung A"
-                        onChange={this.handleRuangChange}
-                      >
-                        {areaData.map(area => (
-                          <Select.Option key={area}>
-                            {area.replace("ung", "ung ")}
-                          </Select.Option>
-                        ))}
-                      </Select>
-
-                      <Select
-                        onChange={this.onRoomChange}
-                        value={this.state.room}
-                      >
-                        {areaRooms.map(ruang => (
-                          <Select.Option key={ruang}>{ruang}</Select.Option>
-                        ))}
-                      </Select>
-                    </Input.Group>
+                    {roomForm(this.state.numberOfRoom)}
                   </Form.Item>
 
                   <Form.Item
