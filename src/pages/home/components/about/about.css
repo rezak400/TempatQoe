@@ -20,11 +20,15 @@
 
 .tutorial .gambar {
     background-color: green;
+    border: 3px solid red;
+    
 
 }
 
 .tutorial .card {
     font-size: 20px;
+    border: 3px solid green;
+    padding: 40px;
 }
 
 
@@ -46,5 +50,10 @@
 }
 .container-about .baris img {
     width: 300px;
+    
+}
+
+.container-about .baris {
+    border: 3px solid gold;
 }
 
