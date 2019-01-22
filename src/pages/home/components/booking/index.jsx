@@ -20,7 +20,6 @@ export default function Booking() {
                                 hoverable
                                 style={{ width: 240 }}
                                 cover={<img alt="example" src={Logo} />}
-
                                 className="tengah"
                             >
                                 <Meta
@@ -37,7 +36,6 @@ export default function Booking() {
                                 hoverable
                                 style={{ width: 240 }}
                                 cover={<img alt="example" src={Logo} />}
-
                                 className="tengah"
                             >
                                 <Meta
@@ -54,7 +52,6 @@ export default function Booking() {
                                 hoverable
                                 style={{ width: 240 }}
                                 cover={<img alt="example" src={Logo} />}
-
                                 className="tengah"
                             >
                                 <Meta
@@ -71,7 +68,6 @@ export default function Booking() {
                                 hoverable
                                 style={{ width: 240 }}
                                 cover={<img alt="example" src={Logo} />}
-
                                 className="tengah"
                             >
                                 <Meta
@@ -88,7 +84,6 @@ export default function Booking() {
                                 hoverable
                                 style={{ width: 240 }}
                                 cover={<img alt="example" src={Logo} />}
-
                                 className="tengah"
                             >
                                 <Meta
@@ -105,7 +100,6 @@ export default function Booking() {
                                 hoverable
                                 style={{ width: 240 }}
                                 cover={<img alt="example" src={Logo} />}
-
                                 className="tengah"
                             >
                                 <Meta

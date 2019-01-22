@@ -7,16 +7,13 @@
 
 .book h1 {
     text-align: center;
-
     color: white;
     margin-bottom: 50px;
 }
 
 .gallery .card {
-   
     border: 3px solid green;
     margin-bottom: 40px;
-   
 }
 
 .gallery .tengah {
