@@ -9,3 +9,13 @@
 .ant-calendar-time-picker-select > ul > li {
   background-color: white;
 }
+
+.ant-cascader-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.ant-cascader-menus > div {
+  display: flex;
+  flex-direction: row;
+}
