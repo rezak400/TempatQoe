@@ -19,7 +19,12 @@ export default class BookingForm extends Component {
   constructor() {
     super();
     this.state = {
-      numberOfRoom: 1
+      numberOfRoom: 1,
+      roomValue1: [],
+      roomValue2: [],
+      roomValue3: [],
+      roomValue4: [],
+      roomValue5: []
     };
   }
 
@@ -29,16 +34,73 @@ export default class BookingForm extends Component {
     });
   };
 
-  handleRoomChange = (value, keys) => {
-    console.log(`Value of selector ${keys} has changed to ${value}`);
+  handleRoomChange1 = async value => {
+    await this.setState({
+      roomValue1: value
+    });
+    console.log(
+      `Function 1 : Value of selector 1 has changed to ${this.state.roomValue1}`
+    );
+  };
+  handleRoomChange2 = async value => {
+    await this.setState({
+      roomValue2: value
+    });
+    console.log(
+      `Function 2 : Value of selector 2 has changed to ${this.state.roomValue2}`
+    );
+  };
+  handleRoomChange3 = async value => {
+    await this.setState({
+      roomValue3: value
+    });
+    console.log(
+      `Function 3 : Value of selector 3 has changed to ${this.state.roomValue3}`
+    );
+  };
+  handleRoomChange4 = async value => {
+    await this.setState({
+      roomValue5: value
+    });
+    console.log(
+      `Function 4 : Value of selector 4 has changed to ${this.state.roomValue4}`
+    );
+  };
+  handleRoomChange5 = async value => {
+    await this.setState({
+      roomValue5: value
+    });
+    console.log(
+      `Function 5 : Value of selector 5 has changed to ${this.state.roomValue5}`
+    );
   };
 
   render() {
     const roomForm = i => {
-      let I = 1;
+      const rooms = [
+        this.state.roomValue1,
+        this.state.roomValue2,
+        this.state.roomValue3,
+        this.state.roomValue4,
+        this.state.roomValue5
+      ];
 
-      const roomCascader = (
-        <Cascader keys={I} options={Option} onChange={this.handleRoomChange} />
+      const handleRoomChangeFuncts = [
+        this.handleRoomChange1,
+        this.handleRoomChange2,
+        this.handleRoomChange3,
+        this.handleRoomChange4,
+        this.handleRoomChange5
+      ];
+
+      let I = 0;
+
+      let roomCascader = (
+        <Cascader
+          options={Option}
+          onChange={handleRoomChangeFuncts[I]}
+          value={rooms[I]}
+        />
       );
 
       const formRepeat = [];
@@ -46,6 +108,13 @@ export default class BookingForm extends Component {
       for (i; i > 0; i--) {
         formRepeat.push(roomCascader);
         I++;
+        roomCascader = (
+          <Cascader
+            options={Option}
+            onChange={handleRoomChangeFuncts[I]}
+            value={rooms[I]}
+          />
+        );
       }
 
       return formRepeat;
