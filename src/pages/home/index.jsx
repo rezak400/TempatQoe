@@ -7,6 +7,7 @@ import About from './components/about';
 import './home.css'
 import WOW from 'wowjs';
 
+
 export default class Home extends React.Component{
   
   componentDidMount() {

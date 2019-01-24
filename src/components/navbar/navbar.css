@@ -60,6 +60,7 @@
 .topnav a:hover, .dropdown:hover .dropbtn {
   background-color: rgb(26, 38, 51);
   color: white;
+  
 }
 
 .dropdown-content a:hover {
