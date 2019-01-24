@@ -30,10 +30,7 @@ export default class Navbar extends Component {
         <div className={this.state.openDrawer ? 'topnav responsive' : 'topnav'} id="myTopnav">
           <Link to="/">Home</Link>
           <Link to="/booking">Booking</Link>
-<<<<<<< HEAD
-=======
           <Link to="./room">Cari</Link>
->>>>>>> 64bf44e4e523851b29eaa3ae816a8682f94e1e2d
           <Link className="login-kanan" to="/form">Login</Link>
           
           {/* <div class="dropdown">
