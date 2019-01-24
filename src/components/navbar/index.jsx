@@ -31,7 +31,7 @@ export default class Navbar extends Component {
           <Link to="/">Home</Link>
           <Link to="/booking">Booking</Link>
           <Link to="./room">Cari</Link>
-          <Link className="login-kanan" to="/login">Login</Link>
+          <Link className="login-kanan" to="/form">Login</Link>
           
           {/* <div class="dropdown">
             <button class="dropbtn">Dropdown 
