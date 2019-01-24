@@ -17,7 +17,7 @@ export default function Button() {
             </Link>
           </Col>
           <Col sm={10}>
-            <Link to={"/Login"}>
+            <Link to={"/form"}>
               <Tombol type="primary" block>
                 LOGIN / REGISTER
               </Tombol>

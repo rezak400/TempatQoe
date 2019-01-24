@@ -2,7 +2,16 @@ import React, { Component } from "react";
 import "antd/dist/antd.css";
 import "./register.css";
 import {
-    Form, Input, Tooltip, Icon, Cascader, Select, Button, InputNumber //AutoComplete,
+    Form, 
+    Input, 
+    Tooltip, 
+    Icon, 
+    Cascader, 
+    Select, 
+    Button, 
+    InputNumber,
+    Card
+     //AutoComplete,
   } from 'antd';
   
   const { Option } = Select;
@@ -86,6 +95,7 @@ import {
   
      
       return (
+        
         <Form onSubmit={this.handleSubmit}  className="regis-form">
           <Form.Item
             {...formItemLayout}
@@ -166,15 +176,14 @@ import {
               <Input addonBefore={prefixSelector} style={{ width: '100%' }} />
             )}
           </Form.Item>
-         
-          
-           
-          
-          
-          <Form.Item {...tailFormItemLayout}>
+                   
+           <Form.Item {...tailFormItemLayout}>
             <Button type="primary" htmlType="submit">Register</Button>
           </Form.Item>
         </Form>
+        
+          
+         
       );
     }
   }

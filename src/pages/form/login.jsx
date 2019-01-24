@@ -19,13 +19,14 @@ import { Form, Icon, Input, Button, Row, Col } from "antd";
     return (
       <div className="form">
           <Row
-          type="flex"
-          justify="center"
           
+          justify="center"
+          align="middle"
           style={{ padding: 100 }}
-        >
+        ></Row>
+           
          <Form onSubmit={this.handleSubmit} className="login-form">
-            <h2>Login</h2>
+            
           <Form.Item>
             {getFieldDecorator("userName", {
               rules: [{ required: true, message: "Please input your username!" }]
@@ -54,11 +55,11 @@ import { Form, Icon, Input, Button, Row, Col } from "antd";
             >
               Log in
             </Button>
-            Or
-            <Link to={"/Register"}> register now!</Link>
+           
           </Form.Item>
         </Form>
-      </Row>
+      
+      
       </div>  
     );
   }

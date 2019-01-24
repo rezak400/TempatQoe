@@ -1,0 +1,19 @@
+.form{
+    padding: 50px;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    
+
+}
+
+.img-form{
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+}
+
+.card-section{
+   height: 500px;
+}
+
