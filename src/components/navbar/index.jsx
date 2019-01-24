@@ -8,8 +8,8 @@ export default function Navbar() {
     
       <ul>
         <li><Link to="/">Home</Link></li>
-        <li><Link to="/login">Login</Link></li>
-        <li><a href="#contact" to="/">Contact</a></li>
+        <li><Link to="/form">Login</Link></li>
+        <li><Link to="">Contact</Link></li>
         <li style={{ float: "right"}}><a class="active" href="#about">About</a></li>
       </ul>
     
