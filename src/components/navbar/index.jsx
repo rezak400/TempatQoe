@@ -8,6 +8,8 @@ export default class Navbar extends Component {
 
     this.state = {
         openDrawer : false
+
+        
     };
   };
       
@@ -28,6 +30,7 @@ export default class Navbar extends Component {
         <div className={this.state.openDrawer ? 'topnav responsive' : 'topnav'} id="myTopnav">
           <Link to="/">Home</Link>
           <Link to="/booking">Booking</Link>
+          <Link to="./room">Cari</Link>
           <Link className="login-kanan" to="/login">Login</Link>
           
           {/* <div class="dropdown">

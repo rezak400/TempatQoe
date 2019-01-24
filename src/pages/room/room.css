@@ -1,0 +1,50 @@
+.search {
+    margin: auto;
+    width: 80%;
+}
+.ruangan {
+    background-color: rgb(245, 245, 245);
+}
+.ruangan h1 {
+    color: white;
+    font-size: 5em;
+}
+
+.ruangan .atas  {
+    color : white;
+    height : 200px;
+    padding: 20px 0 0 20px;
+
+}
+
+.ruangan .search {
+    /* border : 3px solid green; */
+    margin-top: -3em;
+   
+}
+
+.ant-input-lg {
+    padding: 6px 11px;
+    height: 75px;
+    font-size: 16px;
+}
+
+.ant-input {
+    font-size: 25px;
+}
+
+.room-gallery .card {
+    border: 3px solid green;
+    margin-bottom: 40px;
+}
+
+.room-gallery .tengah {
+    border: 3px solid red;
+    margin: auto;
+}
+.room-gallery {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+

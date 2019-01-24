@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "antd/dist/antd.css";
+import Room from './pages/room';
 import Home from "./pages/home";
 import Login from "./pages/login";
 import Booking from "./pages/booking";
@@ -8,6 +9,7 @@ import Error from "./Error";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
 import Register from "./pages/register";
+
 // import WOW from 'wowjs';
 
 
@@ -28,6 +30,7 @@ class App extends Component {
             <Route path="/login" component={Login} />
             <Route path="/booking" component={Booking} />
             <Route path="/register" component={Register} />
+            <Route path="/room" component={Room} />
             <Route component={Error} />
           </Switch>
           <Footer />
