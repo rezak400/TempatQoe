@@ -52,7 +52,7 @@ export default class TabsCard extends Component {
        
         <Card
           className="card-section"
-          bordered={false}
+         
           style={{ width: '100%', textAlign: 'center' }}
           tabList={tabListNoTitle}
           activeTabKey={this.state.noTitleKey}
