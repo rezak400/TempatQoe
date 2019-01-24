@@ -7,7 +7,7 @@ import Booking from "./pages/booking";
 import Error from "./Error";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
-import Register from "./pages/register";
+
 import Form from "./pages/form";
 // import WOW from 'wowjs';
 
@@ -28,7 +28,6 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/form" component={Form} />
             <Route path="/booking" component={Booking} />
-            <Route path="/register" component={Register} />
             <Route path="/room" component={Room} />
             <Route component={Error} />
           </Switch>
