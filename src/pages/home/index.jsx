@@ -1,22 +1,21 @@
 import React from 'react'
-import Slider from './components/slider'
-import Header from './components/header';
-import Button from './components/button';
-import Booking from './components/booking'
-import About from './components/about';
 import './home.css'
+import Header from './components/header';
+import Slider from './components/slider'
+import Button from './components/button';
+import About from './components/about';
+import Booking from './components/booking'
 import WOW from 'wowjs';
 
 
 export default class Home extends React.Component{
-  
   componentDidMount() {
     new WOW.WOW().init();
   }
 
   render(){
   return (
-    <div>
+    <div className="home">
         <div className="atas">
           <Header />  
           <Button />
@@ -25,18 +24,11 @@ export default class Home extends React.Component{
             <br/>
           <Slider />
         </div>
-        {/* <div className="divide">
-            a
-        </div> */}
           <About />
           <br/>
           <Button />
           <br/>
-        
-          <Booking />
-          <br/>
-          
-        
+          <Booking />  
     </div>
   )
 }

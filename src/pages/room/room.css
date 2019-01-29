@@ -1,54 +1,63 @@
-.search {
-    margin: auto;
-    width: 80%;
-}
 .ruangan {
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(73, 116, 160);
 }
-.ruangan h1 {
+.ruangan .navbar ul li{
+    display: inline-block;
+    
+}
+
+.ruangan .navbar ul {
+    margin: 0
+}
+.ruangan .cari {
+    width : 90%;
+    margin: auto;
+}
+.ruangan a{
     color: white;
-    font-size: 5em;
+    display: block;
+    text-align: center;
+    padding: 15px 15px;
 }
 
-.ruangan .atas  {
-    color : white;
-    height : 200px;
-    padding: 20px 0 0 20px;
-
+.ruangan a:hover {
+    background-color: grey;
+    
 }
 
-.ruangan .search {
-    /* border : 3px solid green; */
-    margin-top: -3em;
+.ruangan .option {
+    width: 100%;
+}
+.ruangan .option .tengah{
+    margin-top: 12px;
+}
+
+.atas {
+    background-color: green;
+}
+
+/* style gallery */
+.main-ruangan {
+
+padding-top: 20px;
+
+}
+.main-ruangan .konten {
+   width: 90%;
+   margin: auto;
    
+    
 }
 
-.ant-input-lg {
-    padding: 6px 11px;
-    height: 75px;
-    font-size: 16px;
-}
-
-.ruangan .ant-input {
-    font-size: 25px;
-}
-
-.room-gallery {
+.main-ruangan .kolom{
+    /* background-color: green;
+    
+    border: 1px solid yellow; */
+    box-sizing: border-box;
     min-height: 300px;
-}
-
-.room-gallery .card {
-    border: 3px solid green;
     margin-bottom: 40px;
 }
 
-.room-gallery .tengah {
-    border: 3px solid red;
+.main-ruangan .kolom .tengah{
     margin: auto;
 }
-.room-gallery {
-    width: 80%;
-    margin: auto;
-    margin-top: 40px;
-}
-

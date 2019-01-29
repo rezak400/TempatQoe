@@ -12,16 +12,17 @@
 }
 
 .gallery .card {
-    border: 3px solid green;
+    /* border: 3px solid green; */
     margin-bottom: 40px;
 }
 
 .gallery .tengah {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     margin: auto;
+    
 }
 .gallery {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 

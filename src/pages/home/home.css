@@ -1,15 +1,9 @@
-.atas {
-    background-color: rgb(73, 116, 160);
-   
-}
-
-.divide {
-    background-color: rgb(147, 173, 189);
-    width: 100%;
-    height: 80px;
-}
 * {
     margin: 0;
     padding: 0;
-    
 }
+
+.home .atas {
+    background-color: rgb(73, 116, 160);
+}
+

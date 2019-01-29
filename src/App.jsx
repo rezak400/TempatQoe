@@ -7,7 +7,6 @@ import Booking from "./pages/booking";
 import Error from "./Error";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
-
 import Form from "./pages/form";
 // import WOW from 'wowjs';
 
@@ -18,6 +17,7 @@ class App extends Component {
   // componentDidMount() {
   //   new WOW.WOW().init();
   // }
+  
 
   render() {
     return (
